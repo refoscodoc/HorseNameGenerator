@@ -1,0 +1,12 @@
+/home/alberto/Documents/C Sharp/HorseNameGenerator/HorseNameGenerator/DataAccessMySqlProvider/bin/Debug/net6.0/DataAccessMySqlProvider.deps.json
+/home/alberto/Documents/C Sharp/HorseNameGenerator/HorseNameGenerator/DataAccessMySqlProvider/bin/Debug/net6.0/DataAccessMySqlProvider.dll
+/home/alberto/Documents/C Sharp/HorseNameGenerator/HorseNameGenerator/DataAccessMySqlProvider/bin/Debug/net6.0/ref/DataAccessMySqlProvider.dll
+/home/alberto/Documents/C Sharp/HorseNameGenerator/HorseNameGenerator/DataAccessMySqlProvider/bin/Debug/net6.0/DataAccessMySqlProvider.pdb
+/home/alberto/Documents/C Sharp/HorseNameGenerator/HorseNameGenerator/DataAccessMySqlProvider/obj/Debug/net6.0/DataAccessMySqlProvider.csproj.AssemblyReference.cache
+/home/alberto/Documents/C Sharp/HorseNameGenerator/HorseNameGenerator/DataAccessMySqlProvider/obj/Debug/net6.0/DataAccessMySqlProvider.GeneratedMSBuildEditorConfig.editorconfig
+/home/alberto/Documents/C Sharp/HorseNameGenerator/HorseNameGenerator/DataAccessMySqlProvider/obj/Debug/net6.0/DataAccessMySqlProvider.AssemblyInfoInputs.cache
+/home/alberto/Documents/C Sharp/HorseNameGenerator/HorseNameGenerator/DataAccessMySqlProvider/obj/Debug/net6.0/DataAccessMySqlProvider.AssemblyInfo.cs
+/home/alberto/Documents/C Sharp/HorseNameGenerator/HorseNameGenerator/DataAccessMySqlProvider/obj/Debug/net6.0/DataAccessMySqlProvider.csproj.CoreCompileInputs.cache
+/home/alberto/Documents/C Sharp/HorseNameGenerator/HorseNameGenerator/DataAccessMySqlProvider/obj/Debug/net6.0/DataAccessMySqlProvider.dll
+/home/alberto/Documents/C Sharp/HorseNameGenerator/HorseNameGenerator/DataAccessMySqlProvider/obj/Debug/net6.0/ref/DataAccessMySqlProvider.dll
+/home/alberto/Documents/C Sharp/HorseNameGenerator/HorseNameGenerator/DataAccessMySqlProvider/obj/Debug/net6.0/DataAccessMySqlProvider.pdb
