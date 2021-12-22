@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logohorse.png';
 import './App.css';
 import NameDisplay from './Components/NameDisplay'; 
 

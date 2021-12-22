@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {Card, Button, ButtonGroup, Paper} from "@mui/material";
+import {Card, Button, ButtonGroup, Paper, Tooltip} from "@mui/material";
 
 const NameDisplay = props => {
 
@@ -9,8 +9,8 @@ const NameDisplay = props => {
 
     let choice = 1;
     
-    const callApi = () => {
-        fetch("http://localhost:5128/api/HorseName/1")
+    const callApi = choice => {
+        fetch("https://localhost:7231/api/HorseName/1")
             .then(res => res.json())
             .then(
                 (result) => {
@@ -28,23 +28,34 @@ const NameDisplay = props => {
 
     }    
     
-    // console.log(items.data[0]);
-    
     return (
         <>
             <Card className="card">
                 <Paper className="card-data-display" elevation={3}>
-                    <h1></h1>
+                    <div className="name-lastname">
+                        <Tooltip title={items.firstTooltip}>
+                            <h1>{items.firstName}</h1>
+                        </Tooltip>
+                        <Tooltip title={items.lastTooltip}>
+                            <h1>{items.lastName}</h1>
+                        </Tooltip>
+                    </div>
                 </Paper>
                 <ButtonGroup className="card-buttons">
-                    <Button className="button" onClick = {callApi}>One</Button>
-                    <Button className="button">Two</Button>
-                    <Button className="button">Three</Button>
-                    <Button className="button">Four</Button>
-                    <Button className="button">Five</Button>
-                    <Button className="button">Six</Button>
-                    <Button className="button">Seven</Button>
-                    <Button className="button">Eigth</Button>    
+                    <Button className="button" onClick={() => callApi(0)}>Noun</Button>
+                    <Button className="button" onClick={() => callApi(1)}>Plural</Button>
+                    <Button className="button" onClick={() => callApi(2)}>Adverb</Button>
+                    <Button className="button" onClick={() => callApi(3)}>Verb</Button>
+                    <Button className="button" onClick={() => callApi(4)}>Imperative</Button>
+                    <Button className="button" onClick={() => callApi(5)}>Adverb</Button>
+                </ButtonGroup>
+                <ButtonGroup className="card-buttons">
+                    <Button className="button" onClick={() => callApi(6)}>Plural</Button>
+                    <Button className="button" onClick={() => callApi(7)}>Connected</Button>
+                    <Button className="button"onClick={() => callApi(8)}>Preposition</Button>
+                    <Button className="button"onClick={() => callApi(9)}>Tense</Button>
+                    <Button className="button"onClick={() => callApi(10)}>Superlative</Button>
+                    <Button className="button"onClick={() => callApi(11)}>Conjugation</Button>
                 </ButtonGroup>
             </Card>
         </>
